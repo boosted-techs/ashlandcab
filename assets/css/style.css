@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+*							{margin:0; padding:0;}
+html, body                        {
+	width: 100%;
+	background:#0A0A0C url(../images/aaaa.png) no-repeat center top;
+	font-family: 'Montserrat', sans-serif;
+}
+h1							{font-size:54px; font-family:"Arial Black", Gadget, sans-serif;}
+h2							{font-size:48px; font-weight:bold;}
+h3							{font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; margin-top:12px;}
+h4  						{ font-size:20px; font-weight:normal; line-height:28px;}
+/*h5							{font-size:18px; font-weight:bold; margin:20px 0;}*/
+/*h6							{}*/
+
+.navbar {
+	z-index: 99 !Important;
+	background: #eead13 !important;
+
+}
+/*font-family, size, color, line-height text-transform, text-style, text-align, letter-spacing, word-spacing------------------- */
+/*font color start*/
+.f_clr_blk					{color:#000;}
+.f_clr_rd					{color:#F00;}
+.f_clr_wht					{color:#FFF;}
+.f_clr_yel					{color:#f9d020;}
+.f_clr_yeldeem				{color:#f3e990;}
+.f_clr_brown				{color:#80848b;}
+/*font color end*/
+
+/*font size start 1em=12pt=16px=100% */
+.f_sz10						{font-size:10px;}
+.f_sz12						{font-size:12px;}
+.f_sz14						{font-size:14px;}
+.f_sz16 					{font-size:16px;}
+.f_sz20						{font-size:20px;}
+.f_sz48						{font-size:48px;}
+.f_sz24						{font-size:24px;}
+.f_sz36						{font-size:36px;}
+.f_sz18						{font-size:18px;}
+
+.ltr_spc-2					{letter-spacing:-1px;}
+/*font size end */
+
+.f_txt_cntr					{text-align:center;}
+.f_txt_lft					{text-align:left;}
+.f_txt_rgt					{text-align:right;}
+
+
+.f_cap						{text-transform:capitalize;}
+.f_upr						{text-transform:uppercase;}
+.f_lwr						{text-transform:lowercase;}
+
+.f_wgt_b					{font-weight:bold;}
+.f_stl_i					{font-style:italic;}
+
+.f_line_height12			{line-height:12px;}
+.f_line_height14			{line-height:14px;}
+.f_line_height16			{line-height:16px;}
+.f_line_height18			{line-height:18px;}
+.f_line_height20	   		{line-height:20px;}
+.f_line_height22			{line-height:22px;}
+.f_line_height24			{line-height:24px;}
+/*fonts, size and color------------------------------------------------------------------------------------------------------ */
+
+.logo {
+	width: 150px;
+}
+/*pre-defined css*/
+ul							{margin:0; padding:0;}
+li							{margin:0; padding:0;}
+p							{margin:0; padding:0;}
+img							{float:left; border:none;}
+a{color:#FFF; text-decoration:none;}
+/*pre-defined css end*/
+
+/*self defined css*/
+.fl_l						{float:left;}
+.fl_r						{float:right;}
+.clear						{clear:both;}
+/*self defined css end*/
+
+/*layout*/
+.cwrapper					{width:100%; float:left; height:auto;}
+.hdr						{width:100%; float:left; height:38px; background:#eead13; min-width:1100px;position:relative;z-index:99999;}
+.container					{width:100%;}
+.container_lft				{width: 100%; max-width:604px;  height:auto; margin-top:300px;}
+.container_rght				{width:100%; height:auto; margin-top:20px;}
+.footer						{width:100%;  height:auto; margin-top:20px; }
+.content					{width:100%; margin:auto; height:auto;}
+.div_row					{width:100%; height:auto;}
+/*layout*/
+
+/*header.....define all the header properties........................................	*/
+
+
+.menu ul					{list-style-type:none; display:inline; float:left;}
+.menu ul li					{float:left; background:url(../images/bg.gif) no-repeat right; padding:14px 16px; font-size:11px; text-transform:uppercase;}
+.menu ul li a				{float:left; color:#000; text-decoration:none; padding:0px 8px; text-transform:uppercase; text-align:center;}
+.menu ul li a:hover			{float:left; color:#000; text-decoration:none; padding:0px 8px; text-transform:uppercase; background:url(../images/hover.jpg);-moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radious:5px; border-radius:5px; }
+.menu ul li a.selected		{float:left; color:#000; text-decoration:none; padding:0px 8px; text-transform:uppercase; background:url(../images/hover.jpg);-moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radious:5px; border-radius:5px; }
+/*header................................................................................	*/
+
+
+/*contents......defite all the properties..................................................*/
+.car					{width:100%; max-width:388px; height:226px; float:left;}
+.car_right_con			{width:100%; max-width:184px; height:122px; float:left; margin-top:60px; font-size:20px; line-height:28px; color:#f3e990;}
+.car_btm_list			{ float:right; width:100%; max-width:580px; margin-left:20px;}
+.car_btm_list ul 		{list-style:none;}
+.car_btm_list ul li		{ background:url(../images/border_bg1.jpg) repeat-x bottom; color:#999; text-align:left; display:list-item; letter-spacing:normal;}
+.car_btm_list ul li a	{height:20px; padding-left:20px; color:#999; background:url(../images/bullet.png) left center no-repeat; text-decoration:none; line-height:20px; }
+.car_btm_list ul li a:hover	{height:20px; padding-left:20px; color:#999; background:url(../images/bullet_hover.png) left center no-repeat; text-decoration:none; line-height:20px; }
+.margin-20_btm{margin-bottom:20px;}
+
+.dependable {
+	margin-top: 25px !important;
+	font-size:20px; line-height:28px; color:#f3e990;
+}
+
+.form_top				{position:relative; padding:20px 10px; border:1px solid #CCC; line-height:20px; font-weight:bold; background:url(../images/tnsprnt.png);}
+.star 					{vertical-align:top; color:#999; padding-left:2px; font-size:15px;}
+.pic_cal				{
+	position:absolute;
+	background:url(../images/call.png) no-repeat;
+	width:61px;
+	height:87px;
+	right: 0px;
+	top: 16px;
+	margin-right:-2px;
+}
+.form_bx					{width: 100%; padding:20px 30px 0 30px; float:left; min-height:200px; border:1px solid #CCC; margin-top:20px; color:#f9d020; background:url(../images/tnsprnt.png);}
+.personel_detail			{width:100%; float:left; margin:40px 0 20px 0;}
+.personel_detail input		{margin:5px 0; padding:0 10px; background:transparent; border:1px solid #ECDA5B; width:228px; height:22px; color:#f9d020; font-size:10px;}
+
+.booking_detail							{width:100%; float:left; color:#FFF; height:auto;}
+.booking_detail input[type=text]					{margin:5px 0; background:transparent; border:1px solid #FFF; width:228px; height:22px; font-size:10px; padding:0 10px; color:#FFF; }
+.booking_detail input[name=dest]        {width:200px;}
+
+.booking_detail select[name=taxiType]       {width:250px; height:22px; float:left; margin:5px 0px 5px 0; background:#353535; border:1px solid #FFF; color:#FFF; text-align:center; font-size:10px;}
+.booking_detail select[name=passenger]       {width:250px; height:22px; float:left; margin:5px 0px 5px 0; background:#353535; border:1px solid #FFF; color:#FFF; text-align:center; font-size:10px;}
+.booking_detail select					{width:70px; text-align:center; height:22px; float:left; margin:5px 10px 5px 0; background:#353535; border:1px solid #FFF; color:#FFF; text-align:center; font-size:10px; background-image:none; }
+.booking_detail select option			{text-align:center; background:#353535;}
+.sub1_btn								{width:inherit; height:22px;}
+.form_btm								{width:100%; height:auto; float:left; padding:5px 16px; margin-top:20px; background:url(../images/images/images/btm_form.jpg); position:relative;}
+.form_btm .title						{width:inherit; float:left; color:#f9d020; font-size:16px; font-weight:bold;}
+.form_btm .middle						{width:inherit; float:left; color:#80848b; margin:5px 0;}
+.form_btm .clk_more						{width:200px; float:left; color:#FFF; float:left;}
+.card									{
+	background:url(../images/card.png) no-repeat;
+	width:183px;
+	height:82px;
+	position:absolute;
+	right:-65px;
+	top: -10px;
+}
+/*contents................................................................................*/
+
+
+
+/*fotter...definte all the footer properties.............................................*/
+.sound		{border-top:2px solid #CCC; width:100%; padding:20px 0 0 0; color:#FFF;}
+.sound_btn{width:40px; float:left; line-height:24px;}
+.sound_on_off{width:40px; float:left;}
+.foot_con{width:1000px; float:left; line-height:24px; letter-spacing:0; text-align:center;}
+.copyright{ text-align:center; color:#f9d020; padding:10px 0; width:100%; height:auto; float:left;}
+
+/*fotter................................................................................*/
+.box_round_corner			{-moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radious:10px; border-radius:10px; }
+.box_shadow5				{-moz-box-shadow:5px; -webkit-box-shadow:5px;-o-box-shadow:5px; box-shadow:5px; }
+
+
+/* rounded corner border in ie6/7 include this code in head tag */
+
+.aboutus_car				{width:230px; height:159px; float:left; margin-top:50px;}
+.aboutus_car_right_con		{width:340px; height:auto; float:left; padding-left:20px; color:#FFF; font-size:20px; line-height:28px; color:#f3e990;}
+.aboutus_car_right_con p	{font-size:14px; margin:16px 0; line-height:normal; color:#80848b;}
+
+.airportfare p				{font-size:14px; line-height:normal; color:#80848b;}
+.airportfare				{margin-bottom:20px;}
+
+.airportfare_car				{width:230px; height:159px; float:left;}
+.airportfare_car_right_con		{width:340px; height:auto; float:left; padding-left:30px; color:#FFF; font-size:14px; line-height:16px; color:#fff;}
+.mar_tp_20						{margin-top:20px;}
+
+.reservation_h1					{font-family:"Arial Black", Gadget, sans-serif; font-size:44px; color:#fff;}
+.airportfare_car_right_con		{width:330px; height:auto; float:left; padding-left:30px; color:#FFF; line-height:16px; color:#fff;}
+.reservation_h3					{width:360px; height:auto; float:left; font-size:30px; color:#d0d1d3; font-weight:bold; line-height:30px; }
+.mar_tp_40						{margin-top:40px;}
+
+.rate_list						{width:600px; float:left; font-size:14px;}
+
+.location_list					{font-size:14px; width:100%; float:left; color:#aeab9e;}
+.location_list ul				{list-style-type:none;}
+.location_list ul li			{float:left; background:url(../images/location_li_bg.png) no-repeat left; padding-left:8px; padding-right:8px;}
+
+/*contact page */
+.contact_detail          			 {width:100%; float:left; margin:10px 0 20px 0;}
+.contact_detail input[type=text] 	 {margin:5px 0; padding:0 10px; background:transparent; border:1px solid #ECDA5B; width:255px; height:22px; color:#f9d020; font-size:10px;}
+.contact_detail textarea 			 {margin:5px 0; padding:10px 5px 5px 10px; background:transparent; border:1px solid #ECDA5B; width:265px; height:180px; color:#f9d020; font-size:10px;font-family: Arial, Helvetica, sans-serif;}
+.contact_form_btm        			 {width:340px; height:210px; float:left; color:#FFF; margin-top:60px; font-size:14px; line-height:16px; color:#80848b; background:
+									  url(../images/images/images/btm_form.jpg);}
+.contact_form_btm a		 			 {color:#FFF;}
+.contact_add			  {font-size:16px; font-weight:bold;}
+.reset_btn       		  {width:52px; float:right; height:21px; margin:0 12px 0 0;}
+.submit_btn				  {width:62px; float:right; height:21px;}
+
+
+
+
+
+
+
+@-webkit-keyframes bounce {
+  0% {
+  	-webkit-transform: scale3d(0.1,0.1,1);
+  	-webkit-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  }
+  55% {
+  	-webkit-transform: scale3d(1.08,1.08,1);
+  	-webkit-box-shadow: 0 10px 20px rgba(0,0,0,0);
+  }
+  75% {
+  	-webkit-transform: scale3d(0.95,0.95,1);
+  	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.9);
+  }
+  100% {
+  	-webkit-transform: scale3d(1,1,1);
+  	-webkit-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  }
+}
+
+@-webkit-keyframes minimise {
+  0% {
+  	-webkit-transform: scale3d(1,1,1);
+  }
+  100% {
+  	-webkit-transform: scale3d(0.1,0.1,1);
+  }
+}
+
+
+.message{
+
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background: #79d2a6;
+	height:50px;
+	padding:12px;
+	text-align: center;
+	font-weight:bold;
+	font-size:17px;
+}
+
+.input {
+	width: 100% !important;
+	height: 40px !important;
+	border:1px solid #ECDA5B !important;
+	color:#f9d020 !important;
+}
+
+.theme-color {
+	color:#f9d020 !Important;
+}
+
+.about-us-clr {
+	color:#80848b;
+}
+
+.main-site{
+	width: 100%;
+	max-width: 95%;
+	margin: auto;
+	margin-top: 80px !important;
+}
+
+
+@media screen and (max-width: 700px) {
+	.sm-column-reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.container_lft {
+		margin-top: 30px;
+	}
+}
